@@ -23,7 +23,7 @@ import javax.swing.Timer;
 public class MainForm extends javax.swing.JFrame {
     DBClass db=new DBClass();
     SimpleDateFormat sdf=new SimpleDateFormat("dd-MM-yyyy hh:mm:ss a");
-    String msg="Welcome to Spices and Pickle Shop Management System";
+    String msg="Welcome to Spices and Pickle Shop";
     int k=0;
     /**
      * Creates new form MainForm
@@ -33,7 +33,7 @@ public class MainForm extends javax.swing.JFrame {
         setIconImage(getToolkit().getImage("src/images/bicon.jpg"));
         ImageUtiltiy.changeFrameBackgroundImage(this, "src/images/bback2.jpg");
         //set title
-        setTitle("Spices and Pickle Shop Management System [User - "+StatusClass.user+"]");
+        setTitle("Spices and Pickle Shop [User - "+StatusClass.user+"]");
         
         //Time(delay in miliseconds,code); //1 sec=>1000 miliseconds
         Timer t=new Timer(1000, e->{
@@ -137,7 +137,7 @@ public class MainForm extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(204, 0, 0));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        lbltitle.setText("Spices and Pickle Shop Management System");
+        lbltitle.setText("Spices and Pickle Shop ");
         lbltitle.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         lbltitle.setForeground(new java.awt.Color(255, 255, 255));
 
@@ -151,9 +151,9 @@ public class MainForm extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 374, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
-                .addComponent(lbldatetime, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 291, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 92, Short.MAX_VALUE)
+                .addComponent(lbldatetime, javax.swing.GroupLayout.PREFERRED_SIZE, 277, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(81, 81, 81))
         );
         jPanel1Layout.setVerticalGroup(

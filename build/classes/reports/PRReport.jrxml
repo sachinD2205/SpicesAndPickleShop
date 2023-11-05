@@ -39,14 +39,14 @@
 			<frame>
 				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="92" backcolor="#F23633" uuid="66acf561-6121-4d7a-80f2-5cc5f25233c4"/>
 				<staticText>
-					<reportElement x="53" y="10" width="495" height="43" forecolor="#FFFFFF" uuid="1415f697-cc95-4294-b3a7-30321ae09173"/>
+					<reportElement x="150" y="10" width="317" height="43" forecolor="#FFFFFF" uuid="1415f697-cc95-4294-b3a7-30321ae09173"/>
 					<textElement>
-						<font fontName="SansSerif" size="19" isBold="true"/>
+						<font fontName="SansSerif" size="22" isBold="true"/>
 					</textElement>
-					<text><![CDATA[SPICES AND PICKLE SHOP MANAGEMENT SYSTEM]]></text>
+					<text><![CDATA[SPICES AND PICKLE SHOP]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="120" y="60" width="300" height="32" forecolor="#FFFFFF" uuid="b30805aa-f98c-4d0b-8518-7f793e76ef6e"/>
+					<reportElement x="180" y="60" width="240" height="32" forecolor="#FFFFFF" uuid="b30805aa-f98c-4d0b-8518-7f793e76ef6e"/>
 					<textElement textAlignment="Right">
 						<font fontName="SansSerif" size="16" isBold="true"/>
 					</textElement>
