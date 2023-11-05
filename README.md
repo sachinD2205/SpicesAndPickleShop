@@ -1,2 +1,2 @@
-# SpicesAndPickleShopManagementSystem
-Spices and Pickle Shop Management System
+# SpicesAndPickleShop
+Spices and Pickle Shop
