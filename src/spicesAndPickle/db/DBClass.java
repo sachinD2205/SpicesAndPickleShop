@@ -96,7 +96,9 @@ public class DBClass {
         }
         close();
         return row_affected;
-    }    
+    } 
+    
+    
     public void fillTable(JTable tab1,String sql){
         try{
             ResultSet rs=getData(sql);
@@ -153,6 +155,7 @@ public class DBClass {
         }
         
     }
+    
     public void enableSearch(JTable tab,String query,JComboBox cmb,JTextField txt){
         txt.getDocument().addDocumentListener(new DocumentListener() {
             @Override
